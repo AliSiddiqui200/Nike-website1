@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+
+
+header{
+    width:100%;
+    height:75px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-image: linear-gradient(#f2f2f3,rgb(236, 236, 241));
+    opacity: 86%;
+}
+.logo{
+   padding: 1rem;
+   width: 5rem;
+   margin-right: 1rem;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+a,button{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(5, 5, 5);
+    cursor: pointer;
+    font-weight: bold;
+    font-style: italic;
+}
+button{
+    background-color: #f2f1f7;
+    padding: 9px 25px;
+    border: none;
+    border-radius:8px;
+    transition: all 0.4s ease 0s;
+    border:1px solid rgb(7, 7, 7);
+    
+}
+nav li a:hover{
+    color: #e63d13;
+    transition: all 0.4s 0s;
+
+}
+button:hover{
+    background-color: #f10909;
+}
+a{
+    font-size: large;
+}
+.container-items{
+    display: flex;
+}
+.text1{
+    max-width: 100%;
+    height: auto;
+}
+.text1{
+    position: absolute;
+    top: 25%;
+    color: #f2f1f7;
+    padding: 20px;
+
+}
+
+.text1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
+}
+.footer-col{
+    
+    padding: 0 15px ;
+    width: 25%;
+}
+
+.part2{
+    display: flex;
+}
+.footer{
+    background-color: #ebdc0de3;
+    padding: 70px 0;
+}
+.container{
+    max-width: 1170px;
+    
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+
+}
+.footer-col{
+    
+    padding: 0 15px ;
+    width: 25%;
+}
+.footer-col h4{
+    font-size: 18px;
+    color:black;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+
+}
+.footer-col h4 :before{
+ content:' ';
+ position: absolute;
+ left: 0;
+ bottom:-10px;
+ background-color: #e91e63;
+ height: 2px;
+ box-sizing: border-box;
+ width: 50px;
+}
+.footer-col .social-links a:hover{
+    color: #e7eb0c;
+    background-color: #ffffff;
+
+}
+.foter{
+    color:white;
+}
+@media (max-width:600px) {
+    .footer{
+       width: 100%;
+
+    }
+    img{
+        width: 100%;
+    }
+    
+
+    .nike_mid{
+        width: 1347;
+    }
+
+.nikepic{
+    width: 25%;
+}
+.container-items{
+    width: 100%;
+}
+.part2{
+    width: 100%;
+}
+.moreshoes{
+    width: 100%;
+}
+}
